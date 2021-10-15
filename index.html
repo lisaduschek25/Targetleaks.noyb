@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Target leaks Registrierung</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="styles.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+
+</head>
+
+<br>
+
+<body class="bg-light">
+
+<div class="container">
+<div class="py-5 text-center">
+        <img class="" src="https://noyb.eu/themes/ao_canvas/logo.png" alt="noyb_logo">
+
+        <h2>Targetleaks Registrierung</h2>
+        <p class="lead"> Bitte registriere dich hier:</p>
+
+      </div>
+<fieldset>
+
+  <form name="Registration" class="form-inline" method="post" action="form-signup.php">
+    <p>
+      <label for="Email">Deine email: </label>
+      <input type="text" class="form-control" name="Email" id="Email" placeholder="Bitte gib eine gültige email an" value="" required>
+	  <div class="invalid-feedback">
+                  Gültige email erforderlich.
+                </div>
+    </p>
+    <p>
+      <label for="Token">Dein Targetleaks Token:</label>
+      <input type="text"  class="form-control"  name="Token" id="Token" placeholder="Gib deinen Targetleaks Token hier ein" value="" required>
+    </p>
+    <p>
+      <label for="Disclaimer">Ich habe den legal disclaimer gelesen und verstanden und willige ein:</label>
+      <br>
+      <input type="checkbox" id="Disclaimer" name="Disclaimer" value = "0" required>
+    </p>
+
+    <p>&nbsp;</p>
+    <p>
+      <input type="submit" name="Submit" id="Submit" value="Submit"  class="btn btn-primary btn-lg btn-block">
+    </p>
+  </form>
+</fieldset>
+</div>
+<br>
+<br>
+<div id="footer"; style="text-align:center;">
+   <p>Erstellt und durchgeführt von NOYB-Europäisches Zentrum für digitale Rechte <br>
+      Für weitere Informationen zu noyb.eu, Datenschutz und Verantwortlichen, bitte besuchen Sie <a href="https//:www.noyb.eu">noyb.eu</a>
+   </p>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</body>
+
+</html>
